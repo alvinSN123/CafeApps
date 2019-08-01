@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alex_brush</item>
+        <item>@font/almendra_bold</item>
+        <item>@font/amarante</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/indie_flower</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_mono_thin</item>
+        <item>@font/rubik</item>
+    </array>
+</resources>

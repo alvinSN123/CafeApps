@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="abu1">#00103F</color>
+    <color name="ijoa">#568658</color>
+    <color name="putih">#ffffff</color>
+    <color name="emas1">#E8C57D</color>
+    <color name="coklat">#3B2A05</color>
+    <color name="btn_signup">#39796b</color>
+    <color name="hitam">#000000</color>
+</resources>

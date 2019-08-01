@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/emas1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Icafe"
+                android:textColor="@color/putih"
+                android:textSize="35dp"
+                android:textStyle="italic"
+                app:fontFamily="@font/averia_gruesa_libre" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/emas1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_cari"
+                android:layout_width="276dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_search"
+                android:drawableRight="@drawable/ic_search"
+                android:hint="Mau makan apa hari ini?"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_cari"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Cari"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginTop="15dp"
+                android:textAllCaps="false"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_layout_corner"
+            app:corner_radius="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kopi" />
+
+
+        </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/recycler_container"
+            android:layout_width="match_parent"
+            android:layout_height="566dp"
+            android:layout_marginTop="0dp">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
